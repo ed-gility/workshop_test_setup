@@ -1,10 +1,8 @@
 // an even simpler version of this program can be found here:
 // also see: https://www.arduino.cc/en/tutorial/blink
 
-// this code is explained in detail here:
-// 
-// (please referr to the "explained" code to understand 
-// how to make changes)
+// this code is explained in detail here (may be helpful when changing the code):
+// https://github.com/ed-gility/workshop_test_setup_explained/blob/master/workshop_test_setup_explained.ino
 
 void setup() {
   
@@ -14,13 +12,13 @@ void setup() {
   // setup serial communication with the programmer
   Serial.begin( 9600 );
   while (!Serial) {
-    ; // this waits for serial port to connect on newer 
-      // arduino models (not really needed for the Uno),
+    ; // this waits for serial port to connect on newer arduino models 
+      // (not needed for the Uno -- but needed for the Leonardo, etc.)
   }
   // print to the programmer
   Serial.println( "Arduino has finised setup - starting the loop()" );
   
-} // setup() is over -- now on to loop()
+} // setup() is over -- now on to the loop()
 
 
 // the loop function repeats forever -- does the "Action"
