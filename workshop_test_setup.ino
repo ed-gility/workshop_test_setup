@@ -1,8 +1,7 @@
-// an even simpler version of this program can be found here:
-// also see: https://www.arduino.cc/en/tutorial/blink
-
-// this code is explained in detail here (may be helpful when changing the code):
-// https://github.com/ed-gility/workshop_test_setup_explained/blob/master/workshop_test_setup_explained.ino
+/* 
+  an even simpler version of this program can be found here:
+  also see: https://www.arduino.cc/en/tutorial/blink
+*/
 
 void setup() {
   
