@@ -19,7 +19,6 @@ void setup() {
   
 } // setup() block is over -- now on to the loop()
 
-
 // the loop function repeats forever -- does the "Action"
 void loop() {
   
