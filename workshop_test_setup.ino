@@ -17,20 +17,18 @@ void setup() {
   // print to the programmer
   Serial.println( "Arduino has finised setup - starting the loop()" );
   
-} // setup() is over -- now on to the loop()
+} // setup() block is over -- now on to the loop()
 
 
 // the loop function repeats forever -- does the "Action"
 void loop() {
-
-  // LED ON code
+  
   // turn on the LED (send the LED pin ~ +5 Volts)
   digitalWrite( LED_BUILTIN, HIGH );
   Serial.println( "LED ON" );
   // wait 2 seconds with the LED ON
   delay( 2000 );
   
-  // LED OFF code
   // now turn OFF the LED -- set the output to LOW (~ 0 Volts)
   digitalWrite(LED_BUILTIN, LOW);
   Serial.println( "LED OFF" );
